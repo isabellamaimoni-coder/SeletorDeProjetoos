@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PROVA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        margin: 0;
+        background-color: rgb(24, 82, 121);
+    }
+
+    .navbar {
+        background-color: rgb(11, 60, 93) !important;
+    }
+
+    .navbar .nav-link {
+        color: white !important;
+    }
+
+    .navbar-brand {
+        color: white !important;
+    }
+
+    .container {
+        color: white !important;
+    }
+
+    .container .nav-link {
+        color: white !important;
+    }
+
+    .navbar-brand img {
+        height: 70px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid p-0">
+
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img height="200" width="250" src="./images/MEDSYNC (8).png" alt="Olive Garden">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#HOME">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#DESTAQUES">DESTAQUES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#REMEDIO">REMÉDIOS & CATÁLOGO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#SOBRE">SOBRE</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#CONTATOS">CONTATOS</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section style="
+        min-height:800px; 
+        background-image: url('./images/MEDSYNC\ \(1\).png'); 
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        ">
+
+            <a href="#REMEDIO" class="btn btn-dark">VER REMÉDIOS & CATÁLOGO</a>
+            <br>
+            <a href="#SOBRE" class="btn btn-dark">CONHEÇA NOSSA HISTORIA</a>
+
+        </section>
+
+        <section id="HOME" class="py-4">
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img width="48" height="48"
+                            src="https://img.icons8.com/external-others-amoghdesign/48/external-account-multimedia-solid-24px-others-amoghdesign.png"
+                            alt="external-account-multimedia-solid-24px-others-amoghdesign" />
+
+                        <h6 class="card-subtitle mb-2 text-body-secondary">ATENDIMENTO ACOLHEDOR</h6>
+                        <p class="card-text"> Escuta ativa e orientaçaõ médica para você e sua familia.</p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <img width="80" height="80" src="https://img.icons8.com/dotty/80/hospital.png" alt="hospital" />
+
+                        <h6 class="card-subtitle mb-2 text-body-secondary">FARMACIA DE BAIRRO</h6>
+                        <p class="card-text"> Proximidade com a comunidade de Rio Claro/SP.</p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <img width="50" height="50" src="https://img.icons8.com/ios/50/delivery--v1.png"
+                            alt="delivery--v1" />
+                        <h6 class="card-subtitle mb-2 text-body-secondary">ENTREGA RAPIDA</h6>
+                        <p class="card-text"> Praticidade e agilidade para recebe seus remedios em casa.</p>
+
+                    </div>
+                </div>
+
+        </section>
+        <section id="DESTAQUES" style="
+    background-color:rgb(109, 142, 163);
+    padding: 40px 0;
+    text-align: center;
+    ">
+
+            <h3 style="font-weight: 600;">
+                DESTAQUES DA MEDSYNC
+            </h3>
+            <p>Confira alguns dos medicamentos mais procurados em nossa loja. </p>
+
+            <div class="container mt-4">
+                <div class="row g-3 justify-content-center">
+
+                    <!-- CARD 1 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./images/vitamina C.webp" class="card-img-top">
+                            <div class="card-body text-start">
+                                <h5>Vitamina C</h5>
+                                <p>A vitamina C, ou ácido ascórbico, é um nutriente essencial que atua como
+                                    antioxidante, ajuda na produção de colágeno e melhora a absorção do ferro.</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="mb-0">R$ 14,99</h5>
+                                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                        data-bs-target="#modalComprar1">COMPRAR</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./images/cimegripe.webp" class="card-img-top">
+                            <div class="card-body text-start">
+                                <h5>CIMEGRIPE</h5>
+                                <p>O Cimegripe é um medicamento indicado para aliviar os sintomas de gripes e
+                                    resfriados, como febre, dor de cabeça, dores no corpo, congestão nasal e coriza.</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="mb-0">R$ 18,90</h5>
+                                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                        data-bs-target="#modalComprar2">COMPRAR</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card">
+                            <img src="./images/neosaldina.webp" class="card-img-top">
+                            <div class="card-body text-start">
+                                <h5>Neosaldina</h5>
+                                <p>Nesoaldina é um medicamento analgésico e antiespasmódico indicado para o tratamento
+                                    de diversos tipos de dor de cabeça, enxaquecas e cólicas.</p>
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h5 class="mb-0">R$ 22,90</h5>
+                                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                        data-bs-target="#modalComprar3">COMPRAR</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+        </section>
+
+        </div>
+        </div>
+        </section>
+        <section id="#DESTAQUE" style="
+    background-color: #ffffff98;
+    padding: 40px 0;
+    text-align: center;
+    ">
+            <h3 style="font-weight: 600;">
+                REMÉDIOS & CATÁLOGO
+            </h3>
+
+
+            <div class="container mt-4">
+                <div class="row g-3">
+
+                    <!--CARD4-->
+                    <div class="card" style="width: 18rem;">
+                        <img width="600" height="250" src="./images/dipirona.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DIPIRONA GOTAS 20ml</h5>
+                            <p class="card-text">A dipirona em gotas de 500 mg/ml (frasco com 20 ml) é um medicamento
+                                analgésico e antitérmico indicado para o alívio de dores e febre</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <br>
+                                <br>
+                                <h5 class="mb-0">R$ 14,99</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar4">COMPRAR</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--CARD5-->
+                    <div class="card" style="width: 18rem;">
+                        <img width="500" height="250" src="./images/ibrufeno.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">IBUPROFENO 600MG</h5>
+                            <p class="card-text">O ibuprofeno é um medicamento anti-inflamatório não esteroidal (AINE)
+                                indicado para reduzir a febre e aliviar dores leves a moderadas, como dor de cabeça,
+                                cólicas, dores musculares e de dente</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">R$ 14,99</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar5">COMPRAR</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--CARD6-->
+                    <div class="card" style="width: 18rem ">
+                        <img src="./images/10724941.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PARACETAMOL</h5>
+                            <p class="card-text">paracetamol (ou acetaminofena) é um medicamento analgésico e
+                                antipirético indicado para reduzir a febre e aliviar dores de intensidade leve a
+                                moderada.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">R$ 64,99</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar6">COMPRAR</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--CARD7-->
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/vitamina.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VITAMINA</h5>
+                            <p class="card-text">Vitaminas são compostos orgânicos essenciais que o corpo humano precisa
+                                em pequenas quantidades para regular o metabolismo, produzir energia e manter o sistema
+                                imunológico.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">R$ 65,99</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar7">COMPRAR</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+        </div>
+        </div>
+        </section>
+        <section id="REMÉDIOS" style="
+    background-color: #ffffff98;
+    padding: 40px 0;
+    text-align: center;
+    ">
+
+            <div class="container mt-4">
+                <div class="row g-3">
+
+                    <!--CARD8-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/ADIVIL.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">ADIVIL</h5>
+                            <p class="card-text">Advil é um medicamento analgésico e anti-inflamatório à base de
+                                ibuprofeno, indicado para o alívio temporário de dores leves a moderadas e febre..</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">R$ 26,99</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar8">COMPRAR</button>
+
+                            </div>
+                        </div>
+                    </div><!--CARD9-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/NAPRO.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">NAPROXENO</h5>
+                            <p class="card-text">O naproxeno é um medicamento anti-inflamatório não esteroidal (AINE)
+                                com forte ação analgésica e antitérmica, usado para aliviar dores e reduzir inflamações.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">R$ 36,75</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar9">COMPRAR</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--CARD10-->
+                    <div class="card" style="width: 18rem ">
+                        <img src="./images/287372-1200-900.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BENEGRIPE</h5>
+                            <p class="card-text">O Benegrip é um medicamento analgésico, antitérmico e antialérgico
+                                indicado para o tratamento sintomático de gripes e resfriados</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">R$ 41,89</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar10">COMPRAR</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--CARD11-->
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/192703-800-auto.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">DORFLEX</h5>
+                            <p class="card-text">Dorflex é um medicamento analgésico e relaxante muscular indicado para
+                                o alívio da dor associada a contraturas musculares e dores de cabeça tensional</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h5 class="mb-0">R$ 14,99</h5>
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#modalComprar11">COMPRAR</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="SOBRE" style="
+    background-color:rgb(11, 60, 93);
+    padding: 60px 0;
+    text-align: center;
+">
+
+            <h3 style="font-weight: 600;">
+                NOSSA HISTÓRIA
+            </h3>
+
+            <div class="d-flex flex-column justify-content-center p-5" style="background-color:rgb(152, 189, 212);">
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-6">
+                        <img src="./images/cc47c475-8bea-4c7f-9a50-3e118f023236.png" alt="MedSync" class="img-fluid"
+                            style="max-height: 550px;">
+                    </div>
+
+                    <div class="col-md-6 text-start ">
+
+                        <h3>
+                            - História da MedSync
+                        </h3>
+
+                        <p>
+                            A MedSync nasceu do encontro entre amizade, educação e
+                            superação. Seus fundadores, Daniel, Eduardo e Grilo,
+                            sempre compartilharam mais do que a profissão de
+                            professores: compartilhavam o desejo de transformar
+                            realidades por meio do conhecimento, do cuidado com as
+                            pessoas e de iniciativas com propósito.
+                        </p>
+
+                        <p>
+                            Ao longo dos anos em sala de aula, os três conheceram
+                            diferentes histórias de alunos, famílias e membros da
+                            comunidade que enfrentavam dificuldades no acesso a
+                            informações de saúde, medicamentos e atendimento de
+                            confiança.
+                        </p>
+
+                        <p>
+                            Essa percepção ficou ainda mais forte quando Grilo
+                            enfrentou um câncer, passando por um período delicado
+                            de tratamento, consultas, exames e uso contínuo de
+                            medicamentos.
+                        </p>
+
+                        <p>
+                            Essa experiência mostrou de perto que o cuidado em saúde
+                            vai muito além do remédio: envolve acolhimento,
+                            orientação, empatia e acesso facilitado.
+                        </p>
+
+                        <p>
+                            Durante esse processo, Daniel, Eduardo e Grilo perceberam
+                            que muitas pessoas precisavam de uma farmácia que
+                            oferecesse não apenas produtos, mas também atenção,
+                            confiança e suporte humano.
+                        </p>
+
+                        <p>
+                            Foi dessa reflexão que surgiu a ideia da MedSync, uma
+                            farmácia de bairro criada para estar em perfeita sintonia
+                            com a vida das pessoas.
+                        </p>
+
+                        <p>
+                            O nome MedSync representa justamente essa proposta:
+                            sincronizar saúde, tecnologia, atendimento e proximidade
+                            humana.
+                        </p>
+
+                        <p>
+                            Instalada em Rio Claro/SP, a MedSync foi idealizada para
+                            ser uma farmácia moderna, acessível e acolhedora,
+                            preparada para atender famílias, idosos, pacientes em
+                            tratamento contínuo e toda a comunidade local.
+                        </p>
+
+                        <p>
+                            A história da MedSync é, portanto, a união de três
+                            professores empreendedores que transformaram vivências
+                            pessoais e profissionais em um negócio com propósito
+                            social.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <section id="SOBRE" style="
+    background-color: rgb(126, 141, 151);
+    padding: 60px 0;
+    text-align: center;
+">
+
+            <h3 style="font-weight: 600;">
+                FALE CONOSCO
+            </h3>
+
+            <div class="container col-md-4">
+
+
+
+                <div class="mb-3">
+                    <label class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" placeholder="Digite seu nome">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">E-mail</label>
+                    <input type="email" class="form-control" placeholder="Digite seu e-mail">
+                </div>
+
+
+
+                <div class="mb-3">
+                    <label class="form-label">Mensagem</label>
+                    <textarea class="form-control" rows="3"> Escreva sua dúvida ou mensagem</textarea>
+                </div>
+
+                <button type="button" class="btn btn-dark">ENVIAR MENSAGEM</button>
+            </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <footer id="CONTATO" class="text-white w-100" style="background-color:rgb(11, 60, 93);">
+
+            <div class="container-fluid">
+
+                <div class="row">
+
+                    <div class="col-md-5 p-5">
+
+                        <div class="row">
+
+                            <div class="col-md-6">
+
+                                <h5>INFORMAÇÕES DA FARMACIA </h5>
+                                <br>
+                                <p> ENDEREÇO: RIO CLARO - SP </p>
+                                <br>
+                                <p> TELEFONE: (19) 3500-0000</p>
+                                <br>
+                                <P> EMAIL: contato@medsync.com.br</P>
+                                <br>
+                                <p> HORARIO: Segunda a Sábado: 08h ás 20h</p>
+
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-7 p-0">
+
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.0221453947584!2d-47.56999172470479!3d-22.390522579621805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7dba7eaaaaaab%3A0x557b1da6c12c590f!2sEscola%20SENAI%20%22Manoel%20Jos%C3%A9%20Ferreira%22!5e0!3m2!1spt-BR!2sbr!4v1788464204025!5m2!1spt-BR!2sbr"
+                            width="100%" height="100%" style="border:0;min-height:450px" allowfullscreen=""
+                            loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+        <footer style="background-color: rgb(11, 60, 93); 
+               color: white; 
+               text-align: center; 
+               padding: 10px; 
+               width: 100%;">
+
+            <p style="margin: 0; font-size: 12px;">
+                © 2026 MedSync - Saúde em perfeita sintonia. Todos os direitos reservados.
+            </p>
+        </footer>
+
+    </footer>
+
+
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!--CARD1-->
+    <div class="modal fade" id="modalComprar1" tabindex="-1" aria-labelledby="modalComprarLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD2-->
+    <div class="modal fade" id="modalComprar2" tabindex="-1" aria-labelledby="modalComprarLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD3-->
+    <div class="modal fade" id="modalComprar3" tabindex="-1" aria-labelledby="modalComprarLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD4-->
+    <div class="modal fade" id="modalComprar4" tabindex="-1" aria-labelledby="modalComprarLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD5-->
+    <div class="modal fade" id="modalComprar5" tabindex="-1" aria-labelledby="modalComprarLabel5" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD6-->
+    <div class="modal fade" id="modalComprar6" tabindex="-1" aria-labelledby="modalComprarLabel6" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD7-->
+    <div class="modal fade" id="modalComprar7" tabindex="-1" aria-labelledby="modalComprarLabel7" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD8-->
+    <div class="modal fade" id="modalComprar8" tabindex="-1" aria-labelledby="modalComprarLabel8" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD9-->
+    <div class="modal fade" id="modalComprar8" tabindex="-1" aria-labelledby="modalComprarLabel8" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD10-->
+    <div class="modal fade" id="modalComprar10" tabindex="-1" aria-labelledby="modalComprarLabel10" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CARD11-->
+    <div class="modal fade" id="modalComprar11" tabindex="-1" aria-labelledby="modalComprarLabel11" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalComprarLabel1">ADICIONADO AO CARRINHO COM SUCESSO!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body text-start">
+                    <img width="96" height="96" src="https://img.icons8.com/color/96/ok--v1.png" alt="ok--v1" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
